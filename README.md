@@ -1,2 +1,2 @@
-# betongs-essentials
+# Betongs Essentials
 Inspired by essentialsX
