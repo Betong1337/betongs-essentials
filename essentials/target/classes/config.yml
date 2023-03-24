@@ -1,0 +1,31 @@
+# BETONGS ESSENTIALS CONFIG
+# IF YOU DON'T KNOW WHAT YOU'RE DOING DON'T FUCKING TOUCH THIS!
+# YOU COULD BREAK THE PLUGIN
+
+# BROADCAST PREFIX
+prefix: Broadcast
+
+#[] colors - uses buklkit colors
+prefix_brackets_color: DARK_RED
+
+#Prefix Color - uses bukkit colors
+prefix_color: GOLD
+
+
+# THESE PERMISSIONS ONLY AFFECT THE AMOUNT OF HOMES A USER ARE ALLOWED TO HAVE!
+# VIP AND VIPPLUS ARE JUST NAMES!
+
+# HOW MANY HOMES A STANDARD USER ARE ALLOWED TO HAVE
+# betong.essentials.home.use
+member_homes: 3
+
+# betong.essentials.home.vip
+vip_homes: 5
+
+# betong.essentials.home.vipplus
+vipplus_homes: 10
+
+# UNLIMITED AMOUNT OF HOMES
+# betong.essentials.home.*
+
+

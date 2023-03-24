@@ -1,0 +1,182 @@
+main: me.betong.essentials.App
+name: Essentials
+version: 1.0
+api-version: 1.19
+
+commands:
+  fly:
+    description: Makes you fly
+    aliases:
+    - fly
+    permission: betong.essentials.fly.use
+    permission-message: You do not have permission to execute this command!
+    usage: /fly <player>
+  heal:
+    description: Heal yourself!
+    aliases:
+    - heal
+    permission: betong.essentials.heal.use
+    permission-message: You do not have permission to execute this command!
+    usage: /heal <player>
+  feed:
+    description: Feed yourself!
+    aliases:
+    - feed
+    permission: betong.essentials.feed.use
+    permission-message: You do not have permission to execute this command!
+    usage: /feed <player>
+  gm:
+    description: Set gamemode!
+    aliases:
+    - gamemode
+    - gm
+    permission: betong.essentials.gamemode.use
+    permission-message: You do not have permission to execute this command!
+    usage: /gm <gamemode> <player>
+  tp:
+    description: Teleport players
+    aliases:
+    - teleport
+    - tp
+    permission: betong.essentials.teleport.use
+    permission-message: You do not have permission to execute this command!
+    usage: /tp <player> <player>
+  broadcast:
+    description: Broadcast messages
+    aliases:
+    - broadcast
+    permission: betong.essentials.broadcast.use
+    permission-message: You do not have permission to execute this command!
+    usage: /broadcast <message>
+  invsee:
+    description: Invsee
+    aliases:
+    - invsee
+    permission: betong.essentials.invsee.use
+    permission-message: You do not have permission to execute this command!
+    usage: /invsee <player>
+  setspawn:
+    description: Set world spawn
+    aliases:
+    - setspawn
+    permission: betong.essentials.setspawn.use
+    permission-message: You do not have permission to execute this command!
+    usage: /setspawn
+  spawn:
+    description: Send user to spawn
+    aliases:
+    - spawn
+    permission: betong.essentials.spawn.use
+    permission-message: You do not have permission to execute this command!
+    usage: /spawn
+  setwarp:
+    description: Sets warp
+    aliases:
+    - setwarp
+    permission: betong.essentials.setwarp.use
+    permission-message: You do not have permission to execute this command!
+    usage: /setwarp <name>
+  warp:
+    description: Teleports user to warp
+    aliases:
+    - warp
+    permission: betong.essentials.warp.use
+    permission-message: You do not have permission to execute this command!
+    usage: /warp <name>
+  warps:
+    description: Shows list of all available warps
+    aliases:
+    - warp
+    - warps
+    permission: betong.essentials.warp.use
+    permission-message: You do not have permission to execute this command!
+    usage: /warps
+  delwarp:
+    description: Deletes warp
+    aliases:
+    - delwarp
+    - deletewarp
+    permission: betong.essentials.delwarp.use
+    permission-message: You do not have permission to execute this command!
+    usage: /delwarp <warp>
+  sethome:
+    description: Sets home for user
+    aliases:
+    - sethome
+    permission: betong.essentials.home.use
+    permission-message: You do not have permission to exeucte this command!
+    usage: /sethome <name>
+  home:
+    description: tp to home
+    aliases:
+    - home
+    permission: betong.essentials.home.use
+    permission-message: You do not have permission to exeucte this command!
+    usage: /home <name>
+  homes:
+    description: List all homes of user
+    alisases:
+    - homes
+    permission: betong.essentials.home.use
+    permission-message: You do not have permission to execute this command!
+    usage: /homes
+  delhome:
+    description: Deletes home
+    aliases:
+    - delhome
+    - home
+    permission: betong.essentials.home.use
+    permission-message: You do not have permission to execute this command!
+    usage: /delhome <home>
+
+permissions:
+  betong.essentials.fly.use:
+    description: Makes you fly! 
+    default: op
+  betong.essentials.fly.player.use:
+    description: Make others fly!
+    default: op
+  betong.essentials.heal.use:
+    description: Heal yourself!
+    default: op
+  betong.essentials.heal.player.use:
+    description: Heal others!
+    default: op
+  betong.essentials.feed.use:
+    description: Feed yourself!
+    default: op
+  betong.essentials.feed.player.use:
+    description: Feed others!
+    default: op
+  betong.essentials.gamemode.use:
+    description: Set Gamemode on yourself!
+    default: op
+  betong.essentials.gamemode.player.use:
+    description: Set gamemode on others!
+    default: op
+  betong.essentials.teleport.use:
+    description: Allows you to teleport players!
+    default: op
+  betong.essentials.broadcast.use:
+    description: Allow you do use broadcast command
+    default: op
+  betong.essentials.invsee.use:
+    description: Allow player to use invsee command
+  betong.essentials.spawn.use:
+    description: Allow user to use spawn command
+    default: op
+  betong.essentials.setspawn.use:
+    description: Allow user to setspawn
+    default: op
+  betong.essentials.setwarp.use:
+    description: Allow user to setwarp
+    default: op
+  betong.essentials.warp.use:
+    description: Allow user to warp
+    default: op
+  betong.essentials.delwarp.use:
+    description: Allow user to delete warp
+    default: op
+  betong.essentials.home.use:
+    description: Allow user to use home
+    default: op
